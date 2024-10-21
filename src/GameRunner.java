@@ -17,7 +17,7 @@ public class GameRunner {
 
 			playAgain = in.nextLine();
 			if (!playAgain.equalsIgnoreCase("yes"))
-				System.out.println("\nBye!");
+				System.out.println("\nYou did not enter \"yes\" or \"no\". \nBye!");
 
 		}while (playAgain.equalsIgnoreCase("yes"));
 	}
